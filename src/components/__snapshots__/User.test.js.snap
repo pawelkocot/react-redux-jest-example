@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<div
+  onClick={[Function]}
+>
+  1 user1@example.com
+</div>
+`;

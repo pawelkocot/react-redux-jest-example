@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<div>
+  <h1>
+    USERS
+  </h1>
+</div>
+`;
+
+exports[`snapshot 2`] = `
+<div>
+  <h1>
+    USERS
+  </h1>
+  <button
+    onClick={[Function]}
+  >
+    load users
+  </button>
+</div>
+`;
+
+exports[`snapshot 3`] = `
+<div>
+  <h1>
+    USERS
+  </h1>
+  <Loader />
+</div>
+`;
+
+exports[`snapshot 4`] = `
+<div>
+  <h1>
+    USERS
+  </h1>
+  <UsersList
+    onUserClickHandler={[Function]}
+    users={
+      Array [
+        Object {
+          "email": "user1@example.com",
+          "id": 1,
+        },
+        Object {
+          "email": "user2@example.com",
+          "id": 2,
+        },
+      ]
+    }
+  />
+</div>
+`;
